@@ -4,7 +4,7 @@ APP_DIR="/var/wwww/website"
 RELEASE_DIR="${APP_DIR}/releases"
 DATE=$(date +"%Y%m%d%H%s")
 NEW_RELEASE_DIR="${RELEASE_DIR}/${DATE}"
-REPO="git@anestesia-tech.gitlab.yandexcloud.net:anestesia/website.git"
+REPO="git@github.com:AnastasiyaGapochkina01/website.git"
 COMMIT=$1
 
 # check releases folder
